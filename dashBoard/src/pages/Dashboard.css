@@ -1,0 +1,60 @@
+body {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+h1 {
+  color: #242424;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.dashboard {
+    margin-top: 50px;
+    width: 800px;
+    height: 400px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+    height: 200px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+  }
+  
+  button {
+    /* margin: 0 10px; */
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .signup {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    height: 50px;
+    /* width: 80px; */
+  }
+  
+  .login {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    border: none;
+    height: 50px;
+  }
+
+  .logout {
+    background-color: red; /* Blue */
+    color: white;
+    border: none;
+  }
+  
+  .list li{
+    list-style-type: none;    
+    /* margin-top: 20px; */
+  }
