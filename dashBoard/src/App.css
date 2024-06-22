@@ -2,3 +2,16 @@
   text-align: center;
   padding: 20px;
 }
+
+.input-holder{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+}
+
+.input-field{
+  height: 40px;
+  background-color: white;
+  color: black;
+}
